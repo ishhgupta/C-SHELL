@@ -1,0 +1,13 @@
+1. ls ~ doesnt work. 
+2. ls filename is not working
+3. should give message exited abnormally if bg process is killed by external commands but doesnt do so.
+4. cd ~/newdirect should be printed.
+5. have to implement for vim run in background process as it does not exit.
+6. fix many times printing of prompt.
+7. handle the case of pinfo & ---- it shouldnt print two lines.
+8. in jobs handle the case of serial no. for processes it gets decreased by 1 or dont show the behaviour as performed by bash.
+9. in signal handler, handle if wifsignaled incase process exits abnormally.
+10. when we click firefox (fg) and we kill it forcefollly using gui and then press ctrl-c, doesnt work then.
+11. ctrl-z not working.
+12. in ctrl-c also it doesnt handle the if fore_process status is 1 but process doesnt exist.
+13. not running vim in foreground.
